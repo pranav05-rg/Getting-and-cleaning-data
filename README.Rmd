@@ -1,0 +1,14 @@
+# Getting and Cleaning Data - Course Project
+
+This is the course project for the Getting and Cleaning Data Coursera course.
+The R script, `run_analysis.R`, does the following:
+
+1. Set the working directory to the downloaded database.
+2. Load the training and test data respectively.
+3. Merge the test and training data into one data set.
+4. Extracts only the measurements on mean and standard deviation for each measurement.
+5. Uses descriptive activity names to name the activities in the dataset.
+6. Label the data set with appropriate variable names.
+7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+THE RESULTANT DATA SET IS STORED AS A TEXT FILE NAMED "tidydata.txt"
